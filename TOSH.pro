@@ -14,23 +14,23 @@ TARGET = TOHSens
 
 CONFIG += sailfishapp
 
-SOURCES += src/TOHSens.cpp \
+SOURCES += src/TOSH.cpp \
     src/i2c.cpp \
     src/shtxx.cpp
 
-OTHER_FILES += qml/TOHSens.qml \
+OTHER_FILES += qml/TOSH.qml \
     qml/cover/CoverPage.qml \
     qml/pages/FirstPage.qml \
-    rpm/TOHSens.spec \
-    rpm/TOHSens.yaml \
+    rpm/TOSH.spec \
+    rpm/TOSH.yaml \
     translations/*.ts \
-    TOHSens.desktop \
-    rpm/TOHSens.changes
+    TOSH.desktop \
+    rpm/TOSH.changes
 
 # to disable building translations every time, comment out the
 # following CONFIG line
 CONFIG += sailfishapp_i18n
-TRANSLATIONS += translations/TOHSens-de.ts
+TRANSLATIONS += translations/TOSH-de.ts
 
 HEADERS += \
     src/i2c.h \
