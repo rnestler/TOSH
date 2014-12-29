@@ -1,4 +1,4 @@
-TOHSens
+TOSH
 =======
 
 This tool is for reading I2C sensors connected to the Other half bus of your Jolla phone.
