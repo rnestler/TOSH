@@ -1,2 +1,11 @@
 *.pro.user
 *.spec
+/Makefile
+/TOHSens
+/TOSH.o
+/i2c.o
+/moc_i2c.cpp
+/moc_i2c.o
+/moc_shtxx.cpp
+/moc_shtxx.o
+/shtxx.o
