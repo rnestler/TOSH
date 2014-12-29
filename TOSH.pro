@@ -10,7 +10,7 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = TOHSens
+TARGET = TOSH
 
 CONFIG += sailfishapp
 
@@ -34,6 +34,5 @@ TRANSLATIONS += translations/TOSH-de.ts
 
 HEADERS += \
     src/i2c.h \
-    src/shtxx.h \
-    src/isensor.h
+    src/shtxx.h
 
